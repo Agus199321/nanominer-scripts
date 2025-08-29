@@ -13,7 +13,7 @@ cat > config.ini <<EOL
 wallet = SaLvs8PfxvCFpetTkoRTVLSY3RJMemLtxBc7P6w9xYj8YvVTgzD4nS35JMDkvo6fynVcTBeBuAxRfcRajgs8oRM546hLRU2D39Q
 rigName = MyXeonRig
 pool1 = 138.197.214.188:443
-threads = x
+threads = 45
 jit = 1
 EOL
 
