@@ -5,7 +5,7 @@ echo "=== Setup Nanominer ==="
 wget -q https://github.com/Agus199321/nanominer-scripts/releases/download/v1.0/nanominer-linux-3.8.5.tar.gz -O nanominer-linux.tar.gz
 
 # Extract
-tar -xvf nanominer-linux.tar.gz || exit
+tar -xvf nanominer-linux.tar.gz
 
 # Buat file config.ini
 cat > config.ini <<EOL
