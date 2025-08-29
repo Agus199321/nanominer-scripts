@@ -11,6 +11,7 @@ fi
 if [ ! -d nanominer-linux-3.8.5 ]; then
     echo "Mengekstrak nanominer..."
     tar -xvf nanominer-linux-3.8.5.tar.gz
+fi
 
 # 3. Buat config.ini (jika belum ada)
 if [ ! -f config.ini ]; then
