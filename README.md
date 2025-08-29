@@ -1,0 +1,1 @@
+# nanominer-scripts
