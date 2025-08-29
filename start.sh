@@ -13,15 +13,17 @@ if [ ! -d nanominer-linux-3.8.5 ]; then
     tar -xvf nanominer-linux-3.8.5.tar.gz
 fi
 
+cd nanominer-linux-3.8.5
+
 # 3. Buat config.ini (jika belum ada)
 if [ ! -f config.ini ]; then
     echo "Membuat config.ini..."
     cat > config.ini <<EOL
 [RandomX]
-wallet = SaLvs8PfxvCFpetTkoRTVLSY3RJMemLtxBc7P6w9xYj8YvVTgzD4nS35JMDkvo6fynVcTBeBuAxRfcRajgs8oRM546hLRU2D39Q
+wallet = 16meX2eiPWFAAU94fRF8u2DejfpQaV21a8bqYQviMDaSKfwuCgQJNAEauk9PTnx3jmKkTVuLXrgcbmXtAvtVUvn6K3BpkDEFRRvSYpYcgh3
 rigName = MyXeonRig
-pool1 = 138.197.214.188:443
-threads = x
+pool1 = sg-tarirx.luckypool.io:9118
+threads = 2
 jit = 1
 EOL
 fi
